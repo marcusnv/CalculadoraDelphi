@@ -1,0 +1,136 @@
+object Form1: TForm1
+  Left = 770
+  Top = 357
+  Width = 288
+  Height = 287
+  Caption = 'Calculadora mrkx'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnNumero7: TSpeedButton
+    Left = 8
+    Top = 56
+    Width = 41
+    Height = 33
+    Caption = '7'
+  end
+  object btnNumero8: TSpeedButton
+    Left = 72
+    Top = 56
+    Width = 41
+    Height = 33
+    Caption = '8'
+  end
+  object btnNumero9: TSpeedButton
+    Left = 136
+    Top = 56
+    Width = 41
+    Height = 33
+    Caption = '9'
+  end
+  object btnAdicao: TSpeedButton
+    Left = 216
+    Top = 56
+    Width = 41
+    Height = 33
+    Caption = '+'
+  end
+  object btnNumero4: TSpeedButton
+    Left = 8
+    Top = 104
+    Width = 41
+    Height = 33
+    Caption = '4'
+  end
+  object btnNumero5: TSpeedButton
+    Left = 72
+    Top = 104
+    Width = 41
+    Height = 33
+    Caption = '5'
+  end
+  object btnNumero6: TSpeedButton
+    Left = 136
+    Top = 104
+    Width = 41
+    Height = 33
+    Caption = '6'
+  end
+  object btnSubtracao: TSpeedButton
+    Left = 216
+    Top = 104
+    Width = 41
+    Height = 33
+    Caption = '-'
+  end
+  object btnNumero1: TSpeedButton
+    Left = 8
+    Top = 152
+    Width = 41
+    Height = 33
+    Caption = '1'
+    OnClick = btnNumero1Click
+  end
+  object btnNumero2: TSpeedButton
+    Left = 72
+    Top = 152
+    Width = 41
+    Height = 33
+    Caption = '2'
+  end
+  object btnNumero3: TSpeedButton
+    Left = 136
+    Top = 152
+    Width = 41
+    Height = 33
+    Caption = '3'
+  end
+  object btnMultiplicacao: TSpeedButton
+    Left = 216
+    Top = 152
+    Width = 41
+    Height = 33
+    Caption = 'X'
+  end
+  object btnLimpar: TSpeedButton
+    Left = 8
+    Top = 200
+    Width = 41
+    Height = 33
+    Caption = 'CE'
+  end
+  object btnNumero0: TSpeedButton
+    Left = 72
+    Top = 200
+    Width = 41
+    Height = 33
+    Caption = '0'
+  end
+  object btnIgual: TSpeedButton
+    Left = 136
+    Top = 200
+    Width = 41
+    Height = 33
+    Caption = '='
+  end
+  object btnDivisao: TSpeedButton
+    Left = 216
+    Top = 200
+    Width = 41
+    Height = 33
+    Caption = '/'
+  end
+  object edtResultado: TEdit
+    Left = 8
+    Top = 16
+    Width = 249
+    Height = 21
+    TabOrder = 0
+  end
+end

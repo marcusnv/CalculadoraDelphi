@@ -1,0 +1,54 @@
+unit frmCalculadora;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Buttons, ActnMan, ActnColorMaps;
+
+type
+  TForm1 = class(TForm)
+    btnNumero7: TSpeedButton;
+    btnNumero8: TSpeedButton;
+    btnNumero9: TSpeedButton;
+    btnAdicao: TSpeedButton;
+    btnNumero4: TSpeedButton;
+    btnNumero5: TSpeedButton;
+    btnNumero6: TSpeedButton;
+    btnSubtracao: TSpeedButton;
+    btnNumero1: TSpeedButton;
+    btnNumero2: TSpeedButton;
+    btnNumero3: TSpeedButton;
+    btnMultiplicacao: TSpeedButton;
+    btnLimpar: TSpeedButton;
+    btnNumero0: TSpeedButton;
+    btnIgual: TSpeedButton;
+    btnDivisao: TSpeedButton;
+    edtResultado: TEdit;
+    procedure btnNumero1Click(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+     function addNum(num:Integer) : Integer;
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+function TForm1.addNum(num:Integer) : Integer;
+begin
+edtResultado.Text := edtResultado.Text + IntToStr(num);
+end;
+
+procedure TForm1.btnNumero1Click(Sender: TObject);
+begin
+addNum(1);
+end;
+
+end.
